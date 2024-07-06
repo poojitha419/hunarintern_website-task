@@ -1,0 +1,104 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home page" class="active">Home</a></li>
+                <li><a href="#about information">About Us</a></li>
+                <li><a href="#register process">Register</a></li>
+                <li><a href="#contact information">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <main id="home">
+        <h1>Welcome to Our Online Course Website</h1>
+        <p>Explore our courses and register today!</p>
+        <section>
+            <h2>Featured Courses</h2>
+            <ul>
+                <li><a href="#course1">Course 1: Introduction to HTML/CSS</a></li>
+                <li><a href="#course2">Course 2: JavaScript Fundamentals</a></li>
+                <li><a href="#course3">Course 3: Web Development with React</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- About Us Page -->
+    <main id="about">
+        <h1>About Us</h1>
+        <p>We are a team of experienced educators and developers dedicated to providing high-quality online courses.</p>
+        <section>
+            <h2>Our Mission</h2>
+            <p>To empower individuals with the skills and knowledge needed to succeed in the digital age.</p>
+        </section>
+    </main>
+
+    <!-- Registration Page -->
+    <main id="register">
+        <h1>Register process for a Course</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="course">Select a Course:</label>
+            <select id="course" name="course">
+                <option value="course1">Course 1: Introduction to HTML/CSS</option>
+                <option value="course2">Course 2: JavaScript Fundamentals</option>
+                <option value="course3">Course 3: Web Development with React</option>
+            </select><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </main>
+
+    <!-- Contact Page -->
+    <main id="contact">
+        <h1>Contact Us for the course</h1>
+        <p>Get in touch with us for any questions or feedback.</p>
+        <section>
+            <h2>Contact Information for the course</h2>
+            <p>Email: <a href="mailto:info@onlinecoursewebsite.com">info@onlinecoursewebsite.com</a></p>
+            <p>Phone: 555-555-5555</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Online Course Website</p>
+    </footer>
+
+    <!-- Course Information Modals -->
+    <div id="course1-modal" class="modal">
+        <h2>Course 1: Introduction to HTML/CSS</h2>
+        <p>This course covers the basics of HTML and CSS, including structuring content, styling, and layout.</p>
+        <p>Duration: 4 weeks</p>
+        <p>Price: $200</p>
+        <button class="close-modal">Close</button>
+    </div>
+
+    <div id="course2-modal" class="modal">
+        <h2>Course 2: JavaScript Fundamentals</h2>
+        <p>This course covers the basics of JavaScript, including variables, data types, functions, and control structures.</p>
+        <p>Duration: 6 weeks</p>
+        <p>Price: $300</p>
+        <button class="close-modal">Close</button>
+    </div>
+
+    <div id="course3-modal" class="modal">
+        <h2>Course 3: Web Development with React</h2>
+        <p>This course covers the basics of web development using React, including components, state, and props.</p>
+        <p>Duration: 8 weeks</p>
+        <p>Price: $400</p>
+        <button class="
